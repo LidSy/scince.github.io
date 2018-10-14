@@ -32,6 +32,10 @@
             background-color: white;
             width: 33%;
         }
+        #padding{
+            background-color: aliceblue;
+            padding-left: 20px;
+        }
 
     </style>
 </head>
@@ -60,13 +64,16 @@
                     <li><a style="color: brown;" href="biology.html">Biology</a></li>
                     <li><a style="color: brown;" href="maths.html">Mathematics</a></li>
                     <li><a style="color: brown;" href="astronomy.html">Astronomy</a></li>
+                    <li><a style="color: crimson;" href="/login/login.html">log in</a></li>
+
 
                 </ul>
 
             </div>
         </div>
     </nav>
-      <div class="jumbotron">
+
+    <div class="jumbotron">
         <div class="container text-center">
             <h1>Interesting facts from the scientific world</h1>
             <p>Welcome to the most interesting scientific web-site!</p>
@@ -100,7 +107,7 @@
                 <div class="col-sm-4">
                     <a href="physics.html">
                         <p class="text">Physics</p>
-                        <img src="https://thumbs.dreamstime.com/z/physics-doodles-school-squared-paper-seamless-pattern-vector-48768241.jpg" style="width:320px;height: 250px;" alt="Image">
+                        <img src="https://thumbs.dreamstime.com/z/physics-doodles-school-squared-paper-seamless-pattern-vector-48768241.jpg" style="width: 300px;height: 250px;" alt="Image">
                     </a>
                 </div>
 
@@ -121,13 +128,22 @@
 
         </div>
     </div><br><br>
-
-    <footer>
-        <p>Our contacts: phone:0924156278<br> e-mail:science.gmail.com<br> Thank you for watching our website!<br> All rights reserved.
+    <div id="padding">
+        <!--    <div style = "background-color: aliceblue; padding-left : 20 px">-->
+        <p>Our contacts:<br> phone:0924156278<br> e-mail:science.@gmail.com<br> Thank you for watching our website!<br> All rights reserved.
         </p>
-    </footer>
-     <script>
-      alert('Welcome to my web-site')
+        <!--        </div>-->
+        <form style="background-color:aliceblue;" action="http://vallad.dx.am/myphp/welcome.php">
+            Write your comment here:<br>
+            <textarea name="message" rows="10" cols="30"></textarea>
+
+            <br>
+            <input style="color :brown;" type="submit">
+        </form>
+    </div>
+    <script>
+        alert('Welcome to my web-site');
+
     </script>
 </body>
 
