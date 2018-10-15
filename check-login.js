@@ -72,7 +72,7 @@ function getUserIndexIfValid(userInfo, validUsersArray) {
 function logout() {
     console.log("logout called.");
     localStorage.removeItem('userData');
-    window.location.href = "../../../index.html";
+    window.location.href = "index.html";
 }
 
 var isUserValid = false;
